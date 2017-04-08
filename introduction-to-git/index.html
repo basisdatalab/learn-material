@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Introduction to Git</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="shorcut icon" href="favicon.png">
+
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<p style="font-size: 1.2em">Introduction to Git</p>
+				</section>
+				<section>
+					<p style="font-size: 1em">Apa itu Git?</p>
+				</section>
+				<section>
+					<p style="font-size: 1em">Version Control System</p>
+				</section>
+				<section>
+					<p style="font-size: 1em">Linus Torvalds</p>
+					<small>Principal Developer of Linux Kernel</small>
+				</section>
+				<section>
+					<p style="font-size: 1em">Kenapa Git Penting?</p>
+				</section>
+				<section>
+					<ol>
+						<li>Kolaborasi</li>
+						<li>Tracking Project</li>
+						<li>dan banyak lagi...</li>
+					</ol>
+				</section>
+				<section>
+					<p style="font-size: 1em">Instalasi</p>
+				</section>
+				<section>
+					<p style="font-size: 1em">Download git-scm</p>
+					<a target="blank" href="https://git-scm.com/downloads">https://git-scm.com/downloads</a>
+				</section>
+				<section>
+					<p style="font-size: 1em">Check apakah git sudah terinstall</p>
+					<p><code>git --version</code></p>
+				</section>
+
+				<section>
+					<p style="font-size: 1em">Bagaimana kita menggunakan git?</p>
+				</section>
+
+				<section>
+					<p style="font-size: 1em">Perintah dasar git</p>
+				</section>
+
+				<section>
+					<p style="font-size: 1em"><code>git init</code></p>
+					<small>Untuk membuat repository lokal baru, perintah ini akan membuat sebuah folder baru yang bernama ".git"</small>
+				</section>
+
+				<section>
+					<p style="font-size: 1em"><code>git status</code></p>
+					<small>Untuk melihat status dari repository</small>
+				</section>
+
+				<section>
+					<p style="font-size: 1em"><code>git add</code></p>
+					<small>Untuk menambahkan file ke dalam repository untuk di catat oleh git</small>
+				</section>
+
+				<section>
+					<p style="font-size: 1em"><code>git commit</code></p>
+					<small>Untuk menyimpan seluruh perubahan yang dibuat, jadi ketika kita melakukan penambahan file dengan git add kita bisa melakukan git commit untuk menyimpan perubahan itu</small>
+				</section>
+
+				<section>
+					<p style="font-size: 1em"><code>git push</code></p>
+					<small>Untuk menyimpan data ke dalam repository remote</small>
+				</section>
+
+				<section>
+					<p style="font-size: 1em"><code>git pull</code></p>
+					<small>Untuk mengambil data ke dalam repository remote</small>
+				</section>
+
+				<section>
+					<p style="font-size: 1em"><code>git checkout</code></p>
+					<small>Untuk pindah branch</small>
+				</section>
+
+				<section>
+					<p style="font-size: 1em"><code>git diff</code></p>
+					<small>Untuk membandingkan perubahan pada file</small>
+				</section>
+
+				<section>
+					<p style="font-size: 1em"><code>git merge</code></p>
+					<small>Untuk melakukan penggabungan antar branch</small>
+				</section>
+
+				<section>
+					<p style="font-size: 1em"><code>git remote</code></p>
+					<small>Untuk menambahkan remote repository baru</small>
+				</section>
+
+				<section>
+					<p style="font-size: 1em"><code>git reset</code></p>
+					<small>Untuk membatalkan perubahan pada repository lokal</small>
+				</section>
+
+				<section>
+					<p style="font-size: 1em">That's it</p>
+				</section>
+
+				<section>
+					<p style="font-size: 1em">See you in the next video!</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script>
+			Reveal.initialize({
+				history: true,
+
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
